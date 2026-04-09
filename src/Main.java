@@ -18,8 +18,8 @@ void main() {
     // Polimorfismo con INTERFAZ
     Dibujable[] dibujables = {circulo, rectangulo};
     for (Dibujable d : dibujables) {
-        d.dibujar();        // metodo de la interfaz
-        d.mostrarInfo();    // metodo default de la interfaz
+        d.dibujar();        // llama metodo de la interfaz
+        d.mostrarInfo();    // llama metodo default de la interfaz
         System.out.println();
     }
 }
